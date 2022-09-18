@@ -1,0 +1,285 @@
+body{
+  overflow-x: hidden;
+}
+/*Estilo Navbar*/
+.navbar{
+  /*background-image: linear-gradient(to right, #FED922 20%, #0A50A0 100%);*/
+  /*background-color: #4126E0;*/
+  background-color: #4b1b3a;
+}
+
+.navbar-brand img{
+  width: auto;
+  height: 60px;
+}
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 5px;
+}
+
+.nav-item a{
+  color: #FFF;
+  font-size: 1.1rem;
+}
+
+.nav-item a:hover{
+  color: #ffc107;
+}
+
+.navbar-toggler{
+  color: transparent;
+}
+
+.dropdown{
+  margin-left: 20px;
+}
+
+#navbarDropdownMenuAvatar{
+  text-decoration: none;
+}
+
+.input-group input{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.input-group input:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+/*Fim Estilo Navbar*/
+
+/*Estilo Carousel*/
+.d-flex .carousel {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  max-width: 900px;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 28rem;
+}
+
+.carousel-control-prev-icon{
+  margin-right: 30px;
+}
+
+.carousel-control-next-icon{
+  margin-left: 30px;
+}
+/*Fim Estilo Carousel*/
+
+/*Estilo List*/
+.objetoOda{
+  transition: transform 100ms ease-in-out;
+  cursor: pointer;
+}
+
+.objetoOda:hover{
+  transform: scale(1.05);
+}
+
+.totalObjeto{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 50px;
+}
+
+.titulo{
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.usuario{
+  color: #ffc107;
+  font-weight: 100;
+}
+
+.texto{
+  color: #fff;
+}
+
+footer .blockquote-footer{
+  background-color: #fff;
+}
+/*Fim Estilo List*/
+
+/*Estilo Footer*/
+.round-btn{
+  display: inline;
+  height: 40px; 
+  width: 40px; 
+  background:#fff;
+  border-radius: 50%;
+  float: left;
+  margin: 15px 7px;
+  border: 1px solid;
+}
+
+.round-btn a{
+  display: block !important;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+.btn-facebook a{
+  color: #3b5998;
+  font-size: 19px;
+  padding: 5px 13px;
+}
+
+.btn-linkedin a{
+  color: #007bb6;
+  padding: 6px 12px;
+}
+
+.btn-twitter a{
+  color: #1c9deb;
+  padding: 6px 11px;
+}
+
+.btn-instagram a{
+  color: #dd3f5c;
+  padding: 6px 11px;
+}
+
+.btn-whatsapp a{
+  color: #155E54;
+  padding: 6px 11px;
+}
+
+.btn-envelop a{
+  color: #D6403A;
+  font-size: 17px; 
+  padding: 6px 11px;
+}
+
+.footer-wrap{
+  padding-top: 43px;
+}
+
+.footer-wrap h3{
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  padding-top: 12px;
+}
+
+.footer-wrap p{
+   font-size: 14px;
+   line-height: 24px;
+   color: #b3b3b3;
+   margin-top: 15px;
+}
+
+.footer-wrap p a{
+   color: #fff;
+   text-decoration: underline;
+}
+
+.footer-wrap p a:hover{
+   text-decoration: none;
+   color: #ff7800;
+   cursor: pointer;
+}
+
+.footer-logo img{
+  width: auto;
+  height: 100px;
+}
+
+.copyright{
+   border-top: 1px solid #111;
+   font-size: 14px;
+   color: #ccc;
+   padding-top: 15px;
+   text-align: center;
+   padding-bottom: 15px;
+   background: #222;
+}
+
+footer .second_class{
+   border-bottom: 1px solid #444;
+   padding-bottom: 25px;
+}
+
+footer .first_class{
+   padding-bottom: 21px;
+   border-bottom: 1px solid #b3b3b3;
+}
+
+footer .first_class p, footer .first_class h3{
+   margin: 0 0;
+}
+
+footer .footer-wrap{
+   background-color: #4b1b3a;
+}
+
+footer .newsletter input[type="text"]{
+   width: 100%;
+   background: #fff;
+   color: #333;
+   border: 1px solid #222;
+   padding: 14px 20px;
+   border-radius: 50px;
+   margin-top: 12px;
+}
+
+.newsletter .newsletter_submit_btn{
+  position: relative; 
+  border: 0;
+   font-size: 17px;
+   color: #333;
+   top: 25px;
+   right: 40px;
+}
+
+footer .second_class_bdr{
+   padding-top: 15px;
+   border-top: 1px solid #222;
+}
+
+footer .second_class_bdr p{
+  font-size: 1rem;
+}
+
+@media(max-width:768px){
+  .footer-wrap h3{
+   margin-top: 27px;
+  }
+}
+
+@media(max-width:320px){
+  .copyright{
+     font-size: 13px;
+  }
+}
+/*Fim Estilo Footer*/
