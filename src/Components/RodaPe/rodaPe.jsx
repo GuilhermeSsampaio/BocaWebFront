@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 export const RodaPe =() => {
   var logoboca=require('./img/logo.png');
     return(
@@ -20,19 +21,19 @@ export const RodaPe =() => {
             <div class="col-md-4 col-sm-6">
             <form class="newsletter d-flex">
                <input class="form-control" type="text" placeholder="E-mail"/>
-                  <a class="newsletter_submit_btn" href="http://www.bocaweb.com.br/contato" target="_blank"><i class="fa fa-paper-plane"></i></a>
+                  <a class="newsletter_submit_btn" href="http://www.bocaweb.com.br/contato" target="_blank" rel="noreferrer"><i class="fa fa-paper-plane"></i></a>
             </form>
             </div>
             <div class="col-md-4 col-sm-6">
                <div class="col-md-12">
                   <div class="standard_social_links">
                      <div>
-                        <li class="round-btn btn-facebook"><a href="https://www.facebook.com/ifms.dr" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                        <li class="round-btn btn-linkedin"><a href="https://www.linkedin.com/company/instituto-federal-de-educa%C3%A7%C3%A3o-ci%C3%AAncia-e-tecnologia-de-mato-grosso-do-sul./" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                        <li class="round-btn btn-twitter"><a href="https://twitter.com/ifms" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                        <li class="round-btn btn-instagram"><a href="https://www.instagram.com/ifmsdourados/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                        <li class="round-btn btn-whatsapp"><a href="http://www.bocaweb.com.br/" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
-                        <li class="round-btn btn-envelop"><a href="mailto:ricardo.nascimento@ifms.edu.br" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                        <li class="round-btn btn-facebook"><a href="https://www.facebook.com/ifms.dr" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="round-btn btn-linkedin"><a href="https://www.linkedin.com/company/instituto-federal-de-educa%C3%A7%C3%A3o-ci%C3%AAncia-e-tecnologia-de-mato-grosso-do-sul./" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                        <li class="round-btn btn-twitter"><a href="https://twitter.com/ifms" target="_blank" rel="noreferrer"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                        <li class="round-btn btn-instagram"><a href="https://www.instagram.com/ifmsdourados/" target="_blank" rel="noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                        <li class="round-btn btn-whatsapp"><a href="http://www.bocaweb.com.br/" target="_blank" rel="noreferrer"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                        <li class="round-btn btn-envelop"><a href="mailto:ricardo.nascimento@ifms.edu.br" target="_blank" rel="noreferrer"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                      </div>
                   </div>   
                </div>
