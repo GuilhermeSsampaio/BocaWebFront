@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 export const Cabecalho =({busca, buscaODA}) => {
   var logoboca=require('./img/logo.png');
   var perfil=require('./img/img-perfil.png');
@@ -19,13 +20,13 @@ export const Cabecalho =({busca, buscaODA}) => {
                     <div class="collapse navbar-collapse" id="navbarScroll">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a href="http://www.bocaweb.com.br/oda" target="_blank" class="nav-link  btn-dark"> <i class="fas fa-info-circle"></i> Conheça o BocaWeb </a>
+                                <a href="http://www.bocaweb.com.br/oda" target="_blank" class="nav-link  btn-dark" rel="noreferrer"> <i class="fas fa-info-circle"></i> Conheça o BocaWeb </a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" target="_blank" class="nav-link  btn-dark"> <i class="fas fa-toolbox"></i>  Administração </a>
                             </li>
                             <li class="nav-item">
-                                <a href="http://www.bocaweb.com.br/contato" target="_blank" class="nav-link  btn-dark"> <i class="fas fa-envelope"></i> Contato </a>                  
+                                <a href="http://www.bocaweb.com.br/contato" target="_blank" class="nav-link  btn-dark" rel="noreferrer"> <i class="fas fa-envelope"></i> Contato </a>                  
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
