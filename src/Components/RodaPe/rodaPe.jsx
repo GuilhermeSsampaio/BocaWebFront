@@ -28,7 +28,7 @@ export const RodaPe =() => {
                <div class="col-md-12">
                   <div class="standard_social_links">
                      <div>
-                        <li class="round-btn btn-facebook"><a href="https://www.facebook.com/ifms.dr" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="round-btn btn-facebook"><a href="https://www.facebook.com/ifms.dr" target="_blank" rel="noreferrer" ><i class="fab fa-facebook-f"></i></a></li>
                         <li class="round-btn btn-linkedin"><a href="https://www.linkedin.com/company/instituto-federal-de-educa%C3%A7%C3%A3o-ci%C3%AAncia-e-tecnologia-de-mato-grosso-do-sul./" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
                         <li class="round-btn btn-twitter"><a href="https://twitter.com/ifms" target="_blank" rel="noreferrer"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
                         <li class="round-btn btn-instagram"><a href="https://www.instagram.com/ifmsdourados/" target="_blank" rel="noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
